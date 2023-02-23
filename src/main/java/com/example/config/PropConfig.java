@@ -9,10 +9,11 @@ import org.springframework.stereotype.Component;
 
 //value = "file:${user.home}/Teamium/config/application.properties"
 // file:D://GitHub/Java/JPALearningBoot/src/main/resources/application.properties
+// file:C://Users/Himanshu.Chanana/Documents/GitHub/Java/JPALearningBoot/src/main/resources/application.properties
 // file:${user.home}/eclipse-workspace-learning/JPALearningBoot/src/main/resources/application.properties
 @Component
 @PropertySources({
-		@PropertySource(value = "file:D://GitHub/Java/JPALearningBoot/src/main/resources/application.properties", ignoreResourceNotFound = false) })
+		@PropertySource(value = "file:C://Users/Himanshu.Chanana/Documents/GitHub/Java/JPALearningBoot/src/main/resources/application.properties", ignoreResourceNotFound = false) })
 public class PropConfig implements InitializingBean {
 
 	@Override
